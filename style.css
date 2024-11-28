@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("./images/background-xmas.png");
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 2px;
+    font-size: 48px;
+    color: #003A34;
+}
+
+.container {
+    background: rgba(211, 152, 182, 0.6);
+    width: 680px;
+    max-width: 1200px;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    padding: 24px;
+    margin-top: 48px;
+    margin-inline: auto;
+}
+
+label {
+    font-family: "Podkova", serif ;
+    font-size: 18px;
+}
+
+input{
+    font-family: "Podkova", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 18px;
+    padding: 4px;
+    margin-top: 24px;
+    margin-right: 14px;
+}
+
+button {
+    background-color: rgba(0, 0,0, 0);
+    color: #003A34;
+    font-family: "Playfair Display SC", serif;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid;
+    padding: 8px 16px;
+    /* justify-content: center; */
+    margin: 8px;
+}
+
+button:hover {
+    background: #c23636;
+    color: #fff;
+}
+
+table {
+    width: 80%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    font-family: "Playfair Display SC", serif;
+    color: #003A34;
+    display: inline-table;
+}
+
+select {
+    width: 100px;
+    font-size: 16px;
+}
+
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 2px;
+    text-align:left;
+    background-color: #f4f4f4;
+}
+
+th {
+    font-weight: bold;
+}
+
+p {
+    width: 420px;
+    background-color: #104640;
+    color: #eec8d8;
+    font-family: "Playfair Display SC", serif;
+    font-size: 18px;
+    padding: 8px;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#message {
+    display: none;
+}
