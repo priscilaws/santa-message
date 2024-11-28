@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message From Santa</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Podkova:wght@400..800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+    <h1>SEND A MESSAGE</h1>
+    <H1>FROM SANTA</H1>
+    <form id="santa-form">
+        <label for="Name">Name</label>
+        <input type="text" id="friend-name" required>
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="friend-tel" placeholder="(xx) xxxx-xxxx" required>
+        <select id="filter-select" required>
+            <option value="">Behaved?</option>
+            <option value="Naughty">Naughty</option>
+            <option value="Nice">Nice</option>
+        </select>
+        <button type="submit" id="addNumber">Add Number +</button>
+    <button type="button" id="send-santa">Send to Santa</button>
+    </form>
+    <table id="addTell">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Behaved ?</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>---</th>
+                <th>---</th>
+                <th>Nice/Naughty</th>
+            </tr>
+        </tbody>
+    </table>
+    <p id="message">You've sent your list to Santa</p>
+</div>
+    <script src="./indexjs.js"></script>
+</body>
+</html>
